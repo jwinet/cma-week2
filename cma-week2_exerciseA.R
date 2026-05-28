@@ -23,7 +23,8 @@ wildschwein_BE <- wildschwein_BE |>
 # Answers
 
 n <- n_distinct(wildschwein_BE)
-# 51246 animales were tracked
+n # 51246 animales were tracked
+
 
 summary <- wildschwein_BE |> 
   st_drop_geometry() |> 
@@ -50,7 +51,7 @@ sampling <- wildschwein_BE |>
   )
 
 print(sampling)
-# temporal sampling interval
+# median temporal sampling interval
 # 002A 15.0 min
 # 016A 15.0 min
 # 018A 15.1 min

@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.positai
+*.tif
+dataset/
+posmo_2026-03-05T00_00_00+01_00-2026-04-22T23_59_59+02_00.csv
